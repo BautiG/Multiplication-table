@@ -24,16 +24,12 @@ Height of multiplication table: 8
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
 
+widthlist=list(range(1, width+1))
 listheight=list(range(1,height+1))
-for a in listheight:
+while a in height+1 is < width:
     print(a)
     """
     for b in [a*2]:
         for c in [a*3]:
             for d in [a*4]:
-                for e in [a*5]:
-                    for f in [a*6]:
-                        for g in [a*7]:
-                            for h in [a*8]:
-                                print(a, b, c, d, e, f, g, h)
 """
