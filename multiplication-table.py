@@ -21,10 +21,13 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
-width = input(int("Width of multiplication table: "))
-height = input(int("Height of multiplication table: "))
+width = int(input("Width of multiplication table: "))
+height = int(input("Height of multiplication table: "))
 
-for a in range(height):
+listheight=list(range(1,height+1))
+for a in listheight:
+    print(a)
+    """
     for b in [a*2]:
         for c in [a*3]:
             for d in [a*4]:
@@ -33,7 +36,4 @@ for a in range(height):
                         for g in [a*7]:
                             for h in [a*8]:
                                 print(a, b, c, d, e, f, g, h)
-
-print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
-print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
-print("The number is: {0:>3}".format(123))       # Prints "The number is: 123"
+"""
