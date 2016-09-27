@@ -27,11 +27,12 @@ height = int(input("Height of multiplication table: "))
 widthlist=list(range(1, width+1))
 listheight=list(range(1,height+1))
 multiplier=1
+number=0
 
-while width > height:
+while width > number:
     widthlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
-    height=height+1
+    number=number+1
     print(widthlist)
 
 """
