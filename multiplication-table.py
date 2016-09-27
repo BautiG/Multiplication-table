@@ -30,10 +30,10 @@ multiplier=1
 number=0
 
 while height > number:
-    widthlist=[a*multiplier for a in widthlist]
+    newlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
     number=number+1
-    print(widthlist)
+    print(newlist)
 
 """
 multiplier*x for x in listheight:
