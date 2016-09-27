@@ -29,7 +29,7 @@ listheight=list(range(1,height+1))
 multiplier=1
 number=0
 
-while width > number:
+while height > number:
     widthlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
     number=number+1
