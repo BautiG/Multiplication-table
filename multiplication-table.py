@@ -29,7 +29,7 @@ listheight=list(range(1,height+1))
 multiplier=1
 
 while width > height:
-    print(widthlist*multiplier) and multiplier+1 and height+1
+    widthlist=[x*multiplier for x in widthlist] and multiplier=multiplier+1 and height=height+1 and print(widthlist)
 """
 multiplier*x for x in listheight:
 print(x)
