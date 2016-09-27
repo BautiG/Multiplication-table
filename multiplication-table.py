@@ -23,7 +23,7 @@ Height of multiplication table: 8
 """
 width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
-
+"""
 widthlist=list(range(1, width+1))
 listheight=list(range(1,height+1))
 multiplier=1
@@ -34,9 +34,4 @@ for x in (listheight*multiplier):
         multiplier+1
         for x in (listheight*multiplier):
             print (x)
-
-"""
-    for b in [a*2]:
-        for c in [a*3]:
-            for d in [a*4]:
 """
