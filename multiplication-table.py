@@ -30,10 +30,11 @@ multiplier=1
 
 for x in (listheight*multiplier):
     print(x) 
-    while height < width:
-        width+1 and multiplier+1
+    while listheight[0] < width:
+        multiplier+1
         for x in (listheight*multiplier):
             print (x)
+
 """
     for b in [a*2]:
         for c in [a*3]:
