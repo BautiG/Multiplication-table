@@ -40,7 +40,10 @@ while height > number:
     newlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
     number=number+1
-    print(newlist)
+    counter = 0
+    while counter < width:
+        print("{0:>3}".format(newlist[counter]))
+        counter += 1
 
 """
 multiplier*x for x in listheight:
