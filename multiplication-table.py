@@ -29,17 +29,23 @@ listheight=list(range(1,height+1))
 multiplier=1
 number=0
 
+while width > number:
+    for x in listheight:
+        print(x*multiplier)
+    multiplier=multiplier+1
+    number=number+1
+"""
 while height > number:
     newlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
     number=number+1
     print(newlist)
 
-"""
+
 multiplier*x for x in listheight:
 print(x)
 while listheight[0] < width:
-    multiplier+1
+    multiplier=multiplier+1
 multiplier*x for x in listheight:
 print (x)
 """
