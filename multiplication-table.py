@@ -29,6 +29,7 @@ listheight=list(range(1,height+1))
 multiplier=1
 number=0
 
+"""
 while width > number:
     for x in listheight:
         print(x*multiplier)
@@ -41,7 +42,7 @@ while height > number:
     number=number+1
     print(newlist)
 
-
+"""
 multiplier*x for x in listheight:
 print(x)
 while listheight[0] < width:
