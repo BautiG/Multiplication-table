@@ -28,7 +28,6 @@ widthlist=list(range(1, width+1))
 listheight=list(range(1,height+1))
 multiplier=1
 number=0
-
 """
 while width > number:
     for x in listheight:
@@ -36,15 +35,15 @@ while width > number:
     multiplier=multiplier+1
     number=number+1
 """
-
 while height > number:
     newlist=[a*multiplier for a in widthlist]
     multiplier=multiplier+1
-    number=number+1
+    number+=1
     counter = 0
-    while counter <= width:
-        print("{0:>3}".format(str(newlist[counter])), end=' ')
+    while counter < width:
+        print("{0:>3}".format(str(newlist[counter])), end="")
         counter += 1
+    print()
 
 """
 multiplier*x for x in listheight:
