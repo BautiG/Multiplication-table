@@ -42,8 +42,8 @@ while height > number:
     multiplier=multiplier+1
     number=number+1
     counter = 0
-    while counter < width:
-        print("{0:>3}".format(str(newlist[counter])))
+    while counter <= width:
+        print("{0:>3}".format(str(newlist[counter])), end=' ')
         counter += 1
 
 """
